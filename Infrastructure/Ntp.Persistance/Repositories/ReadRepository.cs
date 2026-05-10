@@ -11,7 +11,7 @@ public class ReadRepository<T> : IReadRepository<T> where T : class, IEntityBase
 
     private readonly DbContext _context;
 
-    public ReadRepository(DbContext context)
+    public ReadRepository(DbContext context) 
     {
         _context = context;
     }

@@ -17,7 +17,7 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
             IsDeleted = false
         };
         Product product2 = new()
-        {
+        { 
             Id = 2,
             Name = "Lenovo Thınkbook 16 21CY006FTR I5-1235U 8gb 512GB SSD 16\" Fdos\r\n",
             Description = "Lenovo Thınkbook 16 21CY006FTR I5-1235U 8gb 512GB SSD 16\" Fdos\r\nLENOVO THINKBOOK 16 21CY006FTR i5-1235U 8GB 512GB SSD 16\" FDOSLenovo Thınkbook 16 21CY006FTR I5-1235U 8gb 512GB SSD 16\" Fdos\r\nLENOVO THINKBOOK 16 21CY006FTR i5-1235U 8GB 512GB SSD 16\" FDOSLenovo Thınkbook 16 21CY006FTR I5-1235U 8gb 512GB SSD 16\" Fdos\r\nLENOVO THINKBOOK 16 21CY006FTR i5-1235U 8GB 512GB SSD 16\" FDOSLenovo Thınkbook 16 21CY006FTR I5-1235U 8gb 512GB SSD 16\" Fdos\r\nLENOVO THINKBOOK 16 21CY006FTR i5-1235U 8GB 512GB SSD 16\" FDOS",

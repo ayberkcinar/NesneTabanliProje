@@ -6,7 +6,7 @@ namespace Ntp.Persistance.Configurations;
 
 public class DetailConfiguration : IEntityTypeConfiguration<Detail>
 {
-    public void Configure(EntityTypeBuilder<Detail> builder)
+    public void Configure(EntityTypeBuilder<Detail> builder) 
     {
         Detail detail1 = new() { Id = 1, Title = "Cat3DetailTitle1", Description = "Cat3DetailDescription1", CategoryId = 3, IsDeleted = false };
         Detail detail2 = new() { Id = 2, Title = "Cat3DetailTitle2", Description = "Cat3DetailDescription2", CategoryId = 3, IsDeleted = false };

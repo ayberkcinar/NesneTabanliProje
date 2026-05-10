@@ -15,4 +15,4 @@ public static class Registration
 
         services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
     }
-}
+} 

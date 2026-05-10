@@ -65,5 +65,5 @@ public interface IReadRepository<T> where T : class, IEntityBase, new()
 
     Task<int> CountAsync(Expression<Func<T, bool>>? predicate = null);
 
-    //var total=await data.CountAsync(x=>x.Isactive)
+    
 }

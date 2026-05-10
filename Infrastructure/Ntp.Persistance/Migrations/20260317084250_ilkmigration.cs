@@ -11,7 +11,7 @@ namespace Ntp.Persistance.Migrations
     public partial class ilkmigration : Migration
     {
         /// <inheritdoc />
-        protected override void Up(MigrationBuilder migrationBuilder)
+        protected override void Up(MigrationBuilder migrationBuilder) 
         {
             migrationBuilder.CreateTable(
                 name: "Categories",

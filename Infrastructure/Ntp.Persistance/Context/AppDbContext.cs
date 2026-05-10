@@ -7,7 +7,7 @@ namespace Ntp.Persistance.Context;
 public class AppDbContext : DbContext
 {
     public AppDbContext()
-    {
+    { 
 
     }
 
